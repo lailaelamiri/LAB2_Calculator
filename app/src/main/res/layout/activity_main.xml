@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:gravity="center"
+    android:background="#121212">
+
+    <EditText
+        android:id="@+id/field_surface"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="La surface en (m²)"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:backgroundTint="#6C63FF"
+        android:layout_marginBottom="18dp" />
+
+    <EditText
+        android:id="@+id/field_pieces"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de pièces"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#888888"
+        android:backgroundTint="#6C63FF"
+        android:layout_marginBottom="18dp" />
+
+    <CheckBox
+        android:id="@+id/check_piscine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Piscine"
+        android:textColor="#FFFFFF"
+        android:buttonTint="#03DAC6"
+        android:layout_marginBottom="22dp" />
+
+    <Button
+        android:id="@+id/btn_calcul"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Calculer"
+        android:backgroundTint="#6C63FF"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="22dp" />
+
+    <TextView
+        android:id="@+id/text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#03DAC6"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="22dp" />
+
+</LinearLayout>
